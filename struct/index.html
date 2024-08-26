@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"> <!-- Define o conjunto de caracteres UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade para dispositivos móveis -->
+  <link rel="icon" href="images/logo.png">  <!-- Ícone da aba do navegador -->
+  <title>Faire</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> <!-- Biblioteca de ícones -->
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo do Website" class="logo"> <!-- Logo do site -->
+    <h1>Sua lista de tarefas</h1>
+  </header>
+  <main>
+    <div class="task-input-card">
+      <form id="task-form">
+        <input type="text" id="task-input" placeholder="Escreva uma tarefa" required> <!-- Campo de entrada da tarefa -->
+        <button type="submit" class="add-task">Adicionar</button> <!-- Botão de adicionar tarefa -->
+      </form>
+    </div>
+    <section class="board">
+      <div class="card">
+        <h2>A fazer</h2>
+        <div id="to-do"></div> <!-- Área para tarefas a fazer -->
+      </div>
+      <div class="card">
+        <h2>Em andamento</h2>
+        <div id="in-progress"></div> <!-- Área para tarefas em andamento -->
+      </div>
+      <div class="card">
+        <h2>Concluídas</h2>
+        <div id="done"></div> <!-- Área para tarefas concluídas -->
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script> <!-- Script que controla a lógica do site -->
+</body>
+</html>
