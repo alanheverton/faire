@@ -15,7 +15,9 @@ Remova tarefas concluídas da lista.
 Como clonar e executar o site
 
 Clone o repositório usando o comando git clone https://github.com/alanheverton/faire.git;
+Você deve ter instalado o node.js no seu pc;
 Navegue até o diretório do projeto e execute o comando npm install para instalar as dependências;
+O caminho da imagem logotipo no head e header e o caminho do script.js no index.html devem ser alterados para corresponder ao caminho exato deles no seu pc;
 Abra o arquivo index.html no navegador para visualizar o site.
 
 Próximas etapas
