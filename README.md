@@ -20,6 +20,12 @@ Navegue até o diretório do projeto e execute o comando npm install para instal
 O caminho da imagem logotipo no head e header e o caminho do script.js no index.html devem ser alterados para corresponder ao caminho exato deles no seu pc;
 Abra o arquivo index.html no navegador para visualizar o site.
 
+Tecnologias utilizadas
+
+HTML;
+CSS;
+Typescript.
+
 Próximas etapas
 
 Adicionar funcionalidade de edição de tarefas;
